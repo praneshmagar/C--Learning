@@ -37,7 +37,7 @@ int main()
             std::cout<< "result: " << result << '\n';
             break;
         default:
-            std::cout << "That wasnt a valid response" << '\n';
+            std::cout << "That wasnt a valid operator" << '\n';
             break;
     }
     std::cout << "*********************" << '\n';
