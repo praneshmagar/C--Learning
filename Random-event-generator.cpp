@@ -18,8 +18,5 @@ int main()
         case 5:std::cout << "You win a phone!\n";
                 break;
     }
-
-
-
     return 0;
 }
