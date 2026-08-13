@@ -15,7 +15,7 @@ int main()
                 break;
         case 4:std::cout << "You win a shirt!\n";
                 break;
-        case 5:std::cout << "You win a phone!\n";
+        case 5:std::cout << "You win a !\n";
                 break;
     }
     return 0;
