@@ -9,8 +9,9 @@ int main(){
 
     std::string students[] = {"spongebob", "patrick", "sqiodward"};
     
-    
-    for(int i = 0; i < sizeof(students)/sizeof(students); i++){
+          //counter           // array name         data type 
+    for(int i = 0; i < sizeof(students)/sizeof(std::string); i++){
+                   //condition                               increment  for increments of 2 do i += 2 
         std::cout << students[i] << '\n';
     }
 

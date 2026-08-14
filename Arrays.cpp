@@ -9,16 +9,16 @@ int main()
     
     
                             0           1         2 */ 
-    std::string cars[]= {"Porsche", "Mercedes", "Supra"};
+    std::string cars[]= {"Porsche", "Mercedes", "Supra"};   // arrays must contain same data types
               //^array   <- found in ^elements
     
-    car[0] = "lambo";          
+    cars[0] = "lambo";          
 
 
 
-    std::cout << car[0] << '\n'; // first element in array stars at 0
-    std::cout << car[1] << '\n';
-    std::cout << car[2] << '\n';    
+    std::cout << cars[0] << '\n'; // first element in array stars at 0
+    std::cout << cars[1] << '\n';
+    std::cout << cars[2] << '\n';    
     //^to access array to an array add [] then index number 
 
 
