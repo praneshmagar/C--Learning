@@ -1,6 +1,6 @@
 #include <iostream>
 
-double square(double length); // list any parameters in ()
+double square(double length); // list any parameters in () / function declaration
 double cube(double length);
 
 int main()
@@ -22,9 +22,9 @@ int main()
 
     return 0;
 }
-double square(double length){  // function declaration
+double square(double length){  // defininig a function
     return length * length;
 }
-double cube(double length){  // function declaration
+double cube(double length){  // defininig a function
     return length * length * length;
 }
