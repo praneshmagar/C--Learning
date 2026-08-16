@@ -56,7 +56,7 @@ char getComputerChoice(){
 }
 
 void showChoice(char choice){
-    switch(choice){
+    switch(choice){ //switches only evaluates integrams, characters, or enums
         case 'r': std::cout << "Rock\n";
                     break;
         case 'p': std::cout << "Paper\n";
