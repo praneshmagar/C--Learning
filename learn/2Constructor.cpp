@@ -15,11 +15,11 @@ class Car{ // blueprint to create  object
         int year;
         std::string color;
 
-    Car(std::string make, std::string model, int year, std::string color ){
-        this->make = make;
-        this->model = model;
-        this->year = year;
-        this->color = color;
+    Car(std::string x, std::string y, int z, std::string c ){
+        x = make;
+        y = model;
+        z = year;
+        c = color;
     }    
         
         
