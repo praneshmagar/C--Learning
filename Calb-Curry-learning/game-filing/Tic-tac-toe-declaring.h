@@ -8,8 +8,8 @@
 #endif
 */
 
-#ifndef gusserH 
-#define gusserH
+#ifndef TictactoeH 
+#define TictactoeH
 #include "Tic-tac-toe-function-def.cpp"
 
 void drawBoard(char *spaces);
