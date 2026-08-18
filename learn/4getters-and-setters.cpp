@@ -1,12 +1,12 @@
 #include <iostream>
 
-//abstraction = hiding unecessary data from outside a class
-// getter = function that makes private attribute READABLE
+// abstraction = hiding unnecessary implementation details from outside a class
+// getter = function that allows you to READ a private attribute
 // setter = function that makes a private attribute WRITEABLE
 
 class Stove{
     private:
-        int temperature = 0; // make private attribute 
+        int temperature = 0; // make private attribute, people wont be able to touch this without setting a functions like the void setTemperature(int temperature){ } function
     public:
     
     Stove(int temperature){
@@ -14,10 +14,10 @@ class Stove{
 
     }
 
-    int getTemperature(){ // make it readable
+    int getTemperature(){ // makes attribute  readable
         return temperature;
     }
-    void setTemperature(int temperature){ //make it writeable
+    void setTemperature(int temperature){ //make attribute writeable
         if(temperature < 0){
             this->temperature = 0;
         }
@@ -30,8 +30,6 @@ class Stove{
     }
 
 };
-
-
 
 int main()
 {

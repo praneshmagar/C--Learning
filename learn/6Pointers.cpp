@@ -2,8 +2,9 @@
 /*
 pointers are variables that stores a memory address of another variable 
 sometimes its easier to work with an address
-'&' address of an operator gives ur values address
+'&' address-of an operator , gives ur values address
 '*' dereference operator accesess value at the address
+common way to write pointer is *p then variable name capital first letter
 */
 
 
@@ -11,7 +12,7 @@ sometimes its easier to work with an address
 int main()
 {
 
-    std::string freePizza[5] = {"pizza1", "pizza2", "pizz3", "pizza3", "pizza4"};
+    std::string freePizza[5] = {"pizza1", "pizza2", "pizz3", "pizza4", "pizza5"};
     int age = 21;
     std::string name = "PRANESH";
     

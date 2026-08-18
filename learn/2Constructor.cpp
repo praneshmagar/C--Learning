@@ -15,13 +15,12 @@ class Car{ // blueprint to create  object
         int year;
         std::string color;
 
-    Car(std::string x, std::string y, int z, std::string c ){
-        x = make;
-        y = model;
-        z = year;
-        c = color;
+    Car(std::string make, std::string model, int year, std::string color ){      // or    // Car(std::string x, std::string y, int z, std::string c ){
+        this->make = make;                                                                // x = make;
+        this->model = model;                                                              // y = model;
+          this->year = year;                                                              // z = year;
+          this->color = color;                                                            // c = color;                   
     }    
-        
         
         void accelerate(){
             std::cout << "This car is accelerating at mach 20\n"; // functions are known as methods

@@ -13,8 +13,7 @@ class Pizza{
         std::string topping2;
 
     Pizza(){
-
-        
+           
     }    
     Pizza(std::string topping1){
         this->topping1 = topping1;

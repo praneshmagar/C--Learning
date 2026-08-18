@@ -3,7 +3,7 @@
 
 int main()
 {
-    srand(time(0));
+    srand(time(NULL));
     int randNum = rand() % 5 + 1;
 
     switch(randNum){

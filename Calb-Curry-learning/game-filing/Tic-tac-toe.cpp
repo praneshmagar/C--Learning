@@ -1,0 +1,38 @@
+#include <iostream>
+#include <ctime>
+#include "Tic-tac-toe-declaring.h"
+
+
+int main()
+{
+    char spaces[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
+    char player = 'X';
+    char computer = 'O';
+    bool running = true; 
+
+    drawBoard(spaces);
+    
+    while(running){
+        playerMove(spaces, player);
+        drawBoard(spaces);
+        if(checkWinner(spaces, player, computer)){
+            running = false;
+            break;
+        }
+        else if(checkTie(spaces)){
+            running = false;
+            break;
+        }
+
+        computerMove(spaces, computer);
+        drawBoard(spaces);
+        if(checkWinner(spaces, player, computer)){
+            running = false;
+            break;
+    }
+    }
+    std::cout << "THANKS FOR PLAYING!\n";
+
+
+    return 0;
+}
