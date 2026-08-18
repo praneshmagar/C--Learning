@@ -44,7 +44,7 @@ void computerMove(char *spaces, char computer)
             spaces[number] = computer;
             break;
         }
-    }
+    };
 }
 bool checkWinner(char *spaces, char player ,char computer)
 {
